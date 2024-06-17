@@ -1,5 +1,5 @@
 import 'flutter_plugin_web_platform_interface.dart';
-import 'dart:js_interop';
+import 'dart:js_interop' if (dart.library.html) 'dart:js_interop';
 
 class FlutterPluginWeb {
   @JS()
